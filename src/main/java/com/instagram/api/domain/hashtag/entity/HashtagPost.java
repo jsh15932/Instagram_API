@@ -1,5 +1,6 @@
 package com.instagram.api.domain.hashtag.entity;
 
+import com.instagram.api.domain.feed.entity.Post;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
