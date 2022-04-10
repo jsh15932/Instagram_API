@@ -1,12 +1,21 @@
 package com.instagram.api.domain.member.entity;
 
+import com.instagram.api.domain.follow.entity.Follow;
+import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Entity
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@EntityListeners(AuditingEntityListener.class)
+@Table(name = "members")
 public class Member {
 
     @Id
