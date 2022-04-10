@@ -1,5 +1,6 @@
 package com.instagram.api.domain.follow.entity;
 
+import com.instagram.api.domain.hashtag.entity.Hashtag;
 import com.instagram.api.domain.member.entity.Member;
 import lombok.AccessLevel;
 import lombok.Builder;
