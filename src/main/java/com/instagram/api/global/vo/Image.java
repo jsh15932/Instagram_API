@@ -1,7 +1,6 @@
 package com.instagram.api.global.vo;
 
 import lombok.*;
-import org.hibernate.type.ImageType;
 
 import javax.persistence.Embeddable;
 import javax.persistence.EnumType;
