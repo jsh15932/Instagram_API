@@ -1,5 +1,6 @@
 package com.instagram.api.domain.feed.entity;
 
+import com.instagram.api.domain.feed.vo.Tag;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
