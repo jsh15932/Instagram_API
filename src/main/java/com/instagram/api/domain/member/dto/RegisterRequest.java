@@ -41,6 +41,6 @@ public class RegisterRequest {
                 .name(getName())
                 .password(getPassword())
                 .email(getEmail())
-                .build()
+                .build();
     }
 }
