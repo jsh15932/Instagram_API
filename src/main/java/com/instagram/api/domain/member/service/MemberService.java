@@ -11,6 +11,4 @@ import org.springframework.stereotype.Service;
 public class MemberService {
 
         private final MemberRepository memberRepository;
-
-        private final S3Uploader s3Uploader;
 }
